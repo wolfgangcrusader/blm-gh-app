@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.blood-drive-container {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+
+/* Hero Section */
+.blood-drive-hero {
+    background: url('../bhm-banner.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.blood-drive-text {
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+}
+
+.blood-drive-subtext {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Intro Section */
+.blood-drive-intro {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+
+/* Handwritten Note Style for Subtext */
+.blood-drive-intro {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    background: #ffffff;
+    color: black;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: rotate(-2deg);
+    border: 2px dashed black;
+}
+
+/* Call-to-Action Button */
+.cta-button {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 8px;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    background: red;
+    color: white;
+}
+
+/* Blood Drive Details */
+.blood-drive-details {
+    max-width: 1100px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.blood-drive-details h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    background: white;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.details-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+/* Columns for the Host and Red Cross */
+.details-column {
+    flex: 1;
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    text-align: left;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
+    min-width: 300px;
+}
+
+.details-column h3 {
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: red;
+}
+
+.details-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.details-column li {
+    padding: 10px 0;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.details-column li strong {
+    color: black;
+}
+
+/* Steps to Organizing a Drive */
+.blood-drive-steps {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: left;
+}
+
+.blood-drive-steps h2 {
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.step {
+    background: white;
+    color: black;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    font-weight: bold;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
+}
+
+.step h3 {
+    font-size: 1.6rem;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    color: red;
+}
+
+.step ul {
+    list-style: none;
+    padding: 0;
+}
+
+.step li {
+    font-size: 1.2rem;
+    padding: 8px 0;
+    line-height: 1.6;
+}
+
+
+/* Why It Matters Section */
+.blood-drive-impact {
+    max-width: 800px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.blood-drive-impact h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.impact-card {
+    background: white;
+    color: black;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.2);
+    text-align: left;
+}
+
+.impact-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: red;
+}
+
+.impact-card p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+
+/* Resources Section */
+.blood-drive-resources {
+    max-width: 900px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.blood-drive-resources h2 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    background: white;
+    color: black;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.resources-subtext {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.resource-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 0 20px;
+}
+
+.resource-card {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform 0.3s ease, background 0.3s ease;
+    box-shadow: 0px 5px 10px rgba(255, 255, 255, 0.2);
+}
+
+.resource-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: red;
+}
+
+.resource-card p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.resource-card:hover, .resource-card h3  {
+    transform: scale(1.05);
+    background: red;
+    color: white;
+}
+
+/* Footer */
+.blood-drive-footer {
+    margin-top: 30px;
+    padding: 20px;
+    background: #111;
+}

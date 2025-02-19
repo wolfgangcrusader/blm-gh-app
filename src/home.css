@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.home-container {
+    width: 100%;
+}
+
+.home-hero {
+    background: url('bhm-banner.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-hero-text {
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: white;
+    color: black;
+    padding: 10px 20px;
+}
+
+.home-title{
+    text-transform: uppercase;
+}
+
+.home-paragraph{
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    background: #ffffff;
+    color: black;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: rotate(-2deg);
+    border: 2px dashed black;
+  }
+
+.home-about {
+    padding: 50px 20px;
+}
+
+.home-title {
+    background: white;
+    color: black;
+    padding: 15px 30px;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.home-image-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; 
+    max-width: 1200px;
+    padding: 10px;
+    margin: 0 auto;
+  }
+  
+  .home-grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .home-grid-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; 
+  }
+  
+.footer {
+    background: #111;
+    padding: 20px;
+    margin-top: 40px;
+}
