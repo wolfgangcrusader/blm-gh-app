@@ -7,6 +7,8 @@ import BloodDrivePage from "./pages/BloodDrive";
 import SocialMediaDownloads from "./pages/SocialMedia";
 import BlackHistoryMovies from "./pages/BlackMovies";
 import PetitionsPage from "./pages/PetitionsPage";
+import DiscordBoostPage from "./pages/DiscordBoost";
+
 
 
 function App() {
@@ -20,6 +22,7 @@ function App() {
                 <Route path="/social" element={<SocialMediaDownloads />} />
                 <Route path="/movies" element={<BlackHistoryMovies />} />
                 <Route path="/petition" element={<PetitionsPage />} />
+                <Route path="/boost" element={<DiscordBoostPage />} />
             </Routes>
         </Router>
     );

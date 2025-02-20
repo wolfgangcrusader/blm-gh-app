@@ -23,6 +23,12 @@ const Home = () => {
       </div>
       <div className="home-grid-section">
         <div className="home-image-grid">
+        <a href="/boost" className="home-grid-item">
+            <img
+              src="/images/tiles/boost.png"
+              alt="Boost us for BHM"
+            />
+          </a>
           <a href="/black-creators" className="home-grid-item">
             <img
               src="/images/tiles/creators.png"
