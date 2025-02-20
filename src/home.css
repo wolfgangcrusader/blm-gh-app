@@ -92,7 +92,51 @@ body {
     height: auto;
     border-radius: 8px; 
   }
+
+  .more-links {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: black;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    display: inline-block;
+    margin: 20px auto;
+    box-shadow: 4px 4px 10px rgba(255, 255, 255, 0.2);
+    max-width: 800px;
+}
+
   
+  .home-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.home-links li {
+    margin: 10px 0;
+}
+
+.home-links a {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    background: red;
+    padding: 10px 15px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: transform 0.2s ease-in-out, background 0.3s ease;
+}
+
+.home-links a:hover {
+    background: black;
+    transform: scale(1.05);
+}
+
 .footer {
     background: #111;
     padding: 20px;

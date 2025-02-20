@@ -30,6 +30,34 @@ const blackOwnedEtsyStores = [
     description:
       "I wanted my crayons to....Be meaningful. Be empowering. Be educational. Be purposeful. So, I decided to create crayons with a purpose. ",
   },
+  {
+    name: "EmmaMakeStudio",
+    link: "https://www.etsy.com/nz/shop/EmmaMakeStudio",
+    image: "/images/emma.webp",
+    description:
+      "Lisbon-based artist Emma Make designs is a great source for colorful home decor—she designs all kinds of whimsical, geometric prints, planners, and wall hangings.",
+  },
+  {
+    name: "OmiWoods",
+    link: "https://www.etsy.com/shop/OmiWoods",
+    image: "/images/omi.webp",
+    description:
+      "For Insta-worthy jewelry, look no further than Omi Woods. Founder Ashley Alexis McFarlane says her designs are inspired by her African heritage and the African diaspora.",
+  },
+  {
+    name: "TW Aromatics & Co",
+    link: "https://www.etsy.com/shop/TWAromaticsandCo",
+    image: "/images/tw.webp",
+    description:
+      "Whether you’re into moody notes of plum and black cherry or prefer the freshness of tropical fruit and sage, “each scent has a purpose to bring about balance, peace, and motivation,”",
+  },
+  {
+    name: "MadeByRheal",
+    link: "https://www.etsy.com/shop/MadeByRheal",
+    image: "/images/rhe.webp",
+    description:
+      "Made by Rheal’s handcrafted pieces are a total win among home decor enthusiasts.",
+  },
 ];
 
 const BlackOwnedEtsy = () => {
